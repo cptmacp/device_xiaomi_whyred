@@ -102,6 +102,16 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.havoc.maintainer=test
 
+
+
+# Hal buffering configuration
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.vendor.audio.hw.binder.size_kbyte=1024 \
+    vendor.audio_hal.in_period_size=144 \
+    vendor.audio_hal.period_multiplier=3 \
+    vendor.audio.adm.buffering.ms=2
+
+
 # Boot
 PRODUCT_PROPERTY_OVERRIDES += \
     sys.vendor.shutdown.waittime=500
