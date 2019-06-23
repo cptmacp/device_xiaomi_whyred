@@ -595,4 +595,8 @@
     <!-- Whether device has multi color battery LED -->
     <bool name="config_multiColorBatteryLed">false</bool>
 
+    <!-- Doze: does this device support STATE_DOZE?  -->
+    <bool name="doze_display_state_supported">true</bool>
+
+
 </resources>
