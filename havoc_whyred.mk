@@ -27,16 +27,9 @@ $(call inherit-product, device/xiaomi/whyred/device.mk)
 $(call inherit-product, vendor/havoc/config/common.mk)
 
 
-
-
-
 # Inherit from custom vendor(miui camer)
 $(call inherit-product, vendor/MiuiCamera/config.mk)
 
-# Inherit some common PixelExperience stuff.
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_GAPPS_ARCH := arm64
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 PRODUCT_NAME := havoc_whyred
 PRODUCT_BRAND := Xiaomi
