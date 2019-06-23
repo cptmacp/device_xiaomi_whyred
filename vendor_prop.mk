@@ -66,11 +66,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio_hal.period_multiplier=3 \
     vendor.audio.adm.buffering.ms=2
 
-#Property to enable display default color mode
-PRODUCT_PROPERTY_OVERRIDES += \
-    vendor.display.enable_default_color_mode=1
-
-
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.audio.hw.binder.size_kbyte=1024
 
