@@ -32,7 +32,20 @@ persist.demo.hdmirotationlock=false
 #Disable Skip Validate
 sdm.debug.disable_skip_validate=1
 
-# Debug Options
+
+# Volume
+ro.config.media_vol_steps=25
+ro.config.vc_call_vol_steps=7
+
+# Make data selection stick in dual SIM devices
+persist.radio.aosp_usr_pref_sel=true
+
+# Radio - Volte
+persist.vendor.radio.apm_sim_not_pwdn=1
+persist.vendor.radio.sib16_support=1
+persist.vendor.radio.custom_ecc=1
+persist.vendor.radio.rat_on=combine
+persist.radio.calls.on.ims=1
 persist.dbg.ims_volte_enable=1 
 persist.dbg.volte_avail_ovr=1 
 persist.dbg.vt_avail_ovr=1
@@ -264,11 +277,6 @@ persist.vendor.radio.data_con_rprt=1
 
 #lct liuxuan add the dom ignore time
 persist.vendor.radio.ignore_dom_time=15
-
-# IMS
-persist.dbg.ims_volte_enable=1 
-persist.dbg.volte_avail_ovr=1
-persist.dbg.vt_avail_ovr=1
 
 #Additional
 persist.power.useautobrightadj=true
