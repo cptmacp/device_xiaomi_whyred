@@ -1,4 +1,4 @@
-# 
+#
 # Copyright (C) 2018 The PixelExperience Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -35,15 +35,15 @@ PRODUCT_NAME := havoc_whyred
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_MODEL := Redmi Note 5
+PRODUCT_MODEL := Redmi Note 5 
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="whyred" \
     PRODUCT_NAME="whyred" \
-    PRIVATE_BUILD_DESC="whyred-user 9 PKQ1.180904.001 V10.3.1.0.PEIMIXM release-keys"
+    PRIVATE_BUILD_DESC="whyred-user 9 PKQ1.180904.001 9.7.25 release-keys"
 
-BUILD_FINGERPRINT := "xiaomi/whyred/whyred:9/PKQ1.180904.001/V10.3.1.0.PEIMIXM:user/release-keys"
+BUILD_FINGERPRINT := "xiaomi/whyred/whyred:9/PKQ1.180904.001/9.7.25:user/release-keys"
 
 TARGET_VENDOR := Xiaomi
