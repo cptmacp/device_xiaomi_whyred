@@ -43,7 +43,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     audio.deep_buffer.media=true \
     audio.offload.min.duration.secs=30 \
     audio.offload.video=true \
-    ro.af.client_heap_size_kbyte=7168 \
     ro.vendor.audio.soundtrigger=nuance \
     ro.vendor.audio.soundtrigger.lowpower=false \
     ro.vendor.audio.sdk.fluencetype=fluence \
