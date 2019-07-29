@@ -218,6 +218,11 @@ ro.vendor.sensors.mot_detect=true
 # enable pickup gesture
 ro.vendor.sensors.pug=true
 
+
+# Proximity
+gsm.proximity.enable=true
+
+
 # Camera
 persist.vendor.camera.preview.ubwc=0
 persist.vendor.camera.stats.test=0
