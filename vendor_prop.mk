@@ -36,6 +36,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.frp.pst=/dev/block/bootdevice/by-name/frp \
     sys.vendor.shutdown.waittime=500 \
     persist.vendor.qcomsysd.enabled=1 \
+    ro.opengles.version=196610
 
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -76,7 +77,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
-    vendor.qcom.bluetooth.soc=cherokee \
     persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxhd-aac
 
 #Property to enable display default color mode
@@ -185,3 +185,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.debug.wfd.enable=1 \
     persist.hwc.enable_vds=1 \
     persist.sys.wfd.virtual=0
+
+# Bluetooth SoC
+PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.qcom.bluetooth.soc=cherokee
+
+# Bluetooth WiPower
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.bluetooth.emb_wp_mode=true \
+    ro.vendor.bluetooth.wipower=true
