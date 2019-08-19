@@ -145,6 +145,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.extension_library=libqti-perfd-client.so
 
+# Camera
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.camera.is_type=5 \
+    persist.camera.googfd.enable=1 \
+    persist.camera.logical.default=1 \
+    persist.camera.gzoom.at=0
+	
+	
 # Radio/IMS - voLTE/voWIFI
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.dbg.ims_volte_enable=1 \
